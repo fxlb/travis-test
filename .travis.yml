@@ -4,9 +4,9 @@ os:
   - linux
   - osx
 
-#compiler:
-#  - gcc
-#  - clang
+compiler:
+  - gcc
+  - clang
 
 before_script:
   # sudo apt-get install libssl-dev libssl0.9.8 libssl1.0.0 libdnet-dev libsmi2-dev
