@@ -12,6 +12,9 @@ env:
   global:
   - secure: "NEeUjCii1RbK3h954cmRgPjafdylGAbUZsecUSEDeWOgukubT5EF1XNM/F9A/Qv0JjMEsN+SNZag/xAih03BvYETabQoU7eBA9bm7TjxTEw1rrBGqyqaYnojslNHtJHK8d/ayZRv32nOKhMxIX33DD92ZbqiLEIK+OpwZPqvhFQ="
 
+git:
+  quiet: true
+
 before_script:
   # sudo apt-get install libssl-dev libssl0.9.8 libssl1.0.0 libdnet-dev libsmi2-dev
   #- cat /usr/include/x86_64-linux-gnu/bits/stdio2.h
